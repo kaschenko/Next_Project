@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px;
+    background: #2b2c34;
+    margin-bottom: 10px;
+}
+
+.title {
+    display: flex;
+    padding: 10px;
+    font: 26px Montserrat-Bold, sans-serif;
+    color: #fffffe;
+    background: #2b2c34 url(../public/Liquid.svg) no-repeat 50% 65%;
+    background-size: contain;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 5%;
+    background: #2b2c34;
+
+}

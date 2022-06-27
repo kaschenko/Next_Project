@@ -1,0 +1,47 @@
+/*.error {*/
+/*    color: darkred;*/
+/*}*/
+.container {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #2b2c34;
+    background-image: url(../public/Liquid.svg);
+    background-position: 65% 65%;
+    /*//background-repeat: no-repeat;*/
+    /*//background-size: contain;*/
+}
+
+.mainTitle {
+    margin: 10px;
+    font: 64px Montserrat-Bold, sans-serif;
+    background-color: transparent;
+    border-right: 5px;
+    -webkit-text-stroke: 1px #000000;
+    color: black;
+}
+
+.title {
+    margin: 10px;
+    font: 40px Montserrat-Bold, sans-serif;
+    color: black;
+    -webkit-text-stroke: 1px #000000;
+}
+
+.link {
+    margin: 10px;
+    color: black;
+    -webkit-text-stroke: 1px #000000;
+    font: 32px Montserrat-Bold, sans-serif;
+}
+.link:hover {
+    color: whitesmoke;
+    cursor: pointer;
+    font: 35px Montserrat-Bold, sans-serif;
+    -webkit-text-stroke: 1.5px #000000;
+}
